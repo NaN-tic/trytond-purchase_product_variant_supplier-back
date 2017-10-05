@@ -7,7 +7,8 @@ from sql import Literal, Null
 from sql.aggregate import Count
 from sql.conditionals import Case
 
-from trytond.model import ModelView, ModelSQL, MatchMixin, fields
+from trytond.model import ModelView, ModelSQL, MatchMixin, fields, \
+    sequence_ordered
 from trytond.pyson import Eval, If
 from trytond.pool import Pool, PoolMeta
 from trytond.transaction import Transaction
@@ -54,7 +55,7 @@ class Product:
             ]
 
 
-class ProductProductSupplier(ModelSQL, ModelView, MatchMixin):
+class ProductProductSupplier(sequence_ordered(), ModelSQL, ModelView, MatchMixin):
     'Product Variant Supplier'
     __name__ = 'purchase.product_product_supplier'
     product = fields.Many2One('product.product', 'Product', required=True,
@@ -152,7 +153,7 @@ class ProductProductSupplier(ModelSQL, ModelView, MatchMixin):
             }
 
 
-class ProductProductSupplierPrice(ModelSQL, ModelView, MatchMixin):
+class ProductProductSupplierPrice(sequence_ordered(), ModelSQL, ModelView, MatchMixin):
     'Product Variant Supplier Price'
     __name__ = 'purchase.product_product_supplier.price'
     product_supplier = fields.Many2One('purchase.product_product_supplier',
