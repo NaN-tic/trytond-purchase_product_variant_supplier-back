@@ -21,6 +21,7 @@ class PurchaseLine:
         if not self.product or not self.purchase:
             return
 
+        description = self.product.rec_name
         for product_supplier in self.product.product_suppliers:
             supplier = product_supplier.party
             if supplier and (self.purchase.party == supplier):

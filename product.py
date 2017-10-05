@@ -3,15 +3,13 @@
 # copyright notices and license terms.
 import datetime
 
-from sql import Literal, Null
-from sql.aggregate import Count
+from sql import Null
 from sql.conditionals import Case
 
 from trytond.model import ModelView, ModelSQL, MatchMixin, fields
 from trytond.pyson import Eval, If
 from trytond.pool import Pool, PoolMeta
 from trytond.transaction import Transaction
-from trytond import backend
 from trytond.modules.product import price_digits
 
 __all__ = ['Template', 'Product', 'ProductProductSupplier', 'ProductProductSupplierPrice']
