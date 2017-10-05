@@ -1,0 +1,151 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.product,product_suppliers:"
+msgid "Suppliers"
+msgstr "Proveïdors"
+
+msgctxt "field:product.product,purchasable_variant:"
+msgid "Purchasable Variant"
+msgstr "Comprable"
+
+msgctxt "field:purchase.product_product_supplier,code:"
+msgid "Code"
+msgstr "Codi"
+
+msgctxt "field:purchase.product_product_supplier,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:purchase.product_product_supplier,create_date:"
+msgid "Create Date"
+msgstr "Data de creació"
+
+msgctxt "field:purchase.product_product_supplier,create_uid:"
+msgid "Create User"
+msgstr "Usuari de creació"
+
+msgctxt "field:purchase.product_product_supplier,currency:"
+msgid "Currency"
+msgstr "Moneda"
+
+msgctxt "field:purchase.product_product_supplier,delivery_time:"
+msgid "Delivery Time"
+msgstr "Termini de lliurament"
+
+msgctxt "field:purchase.product_product_supplier,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:purchase.product_product_supplier,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:purchase.product_product_supplier,party:"
+msgid "Supplier"
+msgstr "Proveïdor"
+
+msgctxt "field:purchase.product_product_supplier,prices:"
+msgid "Prices"
+msgstr "Preus"
+
+msgctxt "field:purchase.product_product_supplier,product:"
+msgid "Product"
+msgstr "Producte"
+
+msgctxt "field:purchase.product_product_supplier,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:purchase.product_product_supplier,sequence:"
+msgid "Sequence"
+msgstr "Seqüència"
+
+msgctxt "field:purchase.product_product_supplier,write_date:"
+msgid "Write Date"
+msgstr "Usuari de creació"
+
+msgctxt "field:purchase.product_product_supplier,write_uid:"
+msgid "Write User"
+msgstr "Usuari de modificació"
+
+msgctxt "field:purchase.product_product_supplier.price,create_date:"
+msgid "Create Date"
+msgstr "Data de creació"
+
+msgctxt "field:purchase.product_product_supplier.price,create_uid:"
+msgid "Create User"
+msgstr "Usuari de creació"
+
+msgctxt "field:purchase.product_product_supplier.price,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:purchase.product_product_supplier.price,product_supplier:"
+msgid "Supplier"
+msgstr "Proveïdor"
+
+msgctxt "field:purchase.product_product_supplier.price,quantity:"
+msgid "Quantity"
+msgstr "Quantitat"
+
+msgctxt "field:purchase.product_product_supplier.price,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:purchase.product_product_supplier.price,sequence:"
+msgid "Sequence"
+msgstr "Seqüència"
+
+msgctxt "field:purchase.product_product_supplier.price,unit_price:"
+msgid "Unit Price"
+msgstr "Preu unitat"
+
+msgctxt "field:purchase.product_product_supplier.price,write_date:"
+msgid "Write Date"
+msgstr "Usuari de creació"
+
+msgctxt "field:purchase.product_product_supplier.price,write_uid:"
+msgid "Write User"
+msgstr "Usuari de modificació"
+
+msgctxt "help:purchase.product_product_supplier,delivery_time:"
+msgid "In number of days"
+msgstr "En nombre de dies."
+
+msgctxt "help:purchase.product_product_supplier.price,quantity:"
+msgid "Minimal quantity"
+msgstr "Quantitat mínima."
+
+msgctxt "model:ir.action,name:act_product_product_supplier_form"
+msgid "Product Supplier"
+msgstr "Proveïdor de producte"
+
+msgctxt "model:ir.action,name:act_product_product_supplier_price_form"
+msgid "Product Supplier Price"
+msgstr "Preu del proveïdor del producte"
+
+msgctxt "model:purchase.product_product_supplier,name:"
+msgid "Product Variant Supplier"
+msgstr "Proveïdor de la variant"
+
+msgctxt "model:purchase.product_product_supplier.price,name:"
+msgid "Product Variant Supplier Price"
+msgstr "Preu del proveïdor de la variant"
+
+msgctxt "view:purchase.product_product_supplier.price:"
+msgid "Product Supplier Price"
+msgstr "Preu del proveïdor del producte"
+
+msgctxt "view:purchase.product_product_supplier.price:"
+msgid "Product Suppliers"
+msgstr "Proveïdors de productes"
+
+msgctxt "view:purchase.product_product_supplier:"
+msgid "Product Supplier"
+msgstr "Proveïdor de producte"
+
+msgctxt "view:purchase.product_product_supplier:"
+msgid "Product Suppliers"
+msgstr "Proveïdors de productes"

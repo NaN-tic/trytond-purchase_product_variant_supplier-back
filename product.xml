@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <!-- product product -->
+        <record model="ir.ui.view" id="product_view_form">
+            <field name="model">product.product</field>
+            <field name="inherit" ref="product.product_view_form"/>
+            <field name="name">product_form</field>
+        </record>
+
+        <!-- purchase product product supplier -->
+        <record model="ir.ui.view" id="product_product_supplier_view_form">
+            <field name="model">purchase.product_product_supplier</field>
+            <field name="type">form</field>
+            <field name="name">product_supplier_form</field>
+        </record>
+        <record model="ir.ui.view" id="product_product_supplier_view_tree">
+            <field name="model">purchase.product_product_supplier</field>
+            <field name="type">tree</field>
+            <field name="name">product_supplier_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_product_product_supplier_form">
+            <field name="name">Product Supplier</field>
+            <field name="res_model">purchase.product_product_supplier</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_product_product_supplier_list_view">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="product_product_supplier_view_tree"/>
+            <field name="act_window" ref="act_product_product_supplier_form"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_product_product_supplier_form_view">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="product_product_supplier_view_form"/>
+            <field name="act_window" ref="act_product_product_supplier_form"/>
+        </record>
+
+        <record model="ir.model.access" id="access_product_product_supplier">
+            <field name="model" search="[('model', '=', 'purchase.product_product_supplier')]"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_product_product_supplier_admin">
+            <field name="model" search="[('model', '=', 'purchase.product_product_supplier')]"/>
+            <field name="group" ref="product.group_product_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <!-- purchase product product supplier price -->
+        <record model="ir.ui.view" id="product_product_supplier_price_view_form">
+            <field name="model">purchase.product_product_supplier.price</field>
+            <field name="type">form</field>
+            <field name="name">product_supplier_price_form</field>
+        </record>
+        <record model="ir.ui.view" id="product_product_supplier_price_view_tree">
+            <field name="model">purchase.product_product_supplier.price</field>
+            <field name="type">tree</field>
+            <field name="name">product_supplier_price_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_product_product_supplier_price_form">
+            <field name="name">Product Supplier Price</field>
+            <field name="res_model">purchase.product_product_supplier.price</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_product_product_supplier_price_list_view">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="product_product_supplier_price_view_tree"/>
+            <field name="act_window" ref="act_product_product_supplier_price_form"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_product_product_supplier_price_form_view">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="product_product_supplier_price_view_form"/>
+            <field name="act_window" ref="act_product_product_supplier_price_form"/>
+        </record>
+
+        <record model="ir.model.access" id="access_product_product_supplier_price">
+            <field name="model" search="[('model', '=', 'purchase.product_product_supplier.price')]"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_product_product_supplier_price_admin">
+            <field name="model" search="[('model', '=', 'purchase.product_product_supplier.price')]"/>
+            <field name="group" ref="product.group_product_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+    </data>
+</tryton>

@@ -1,0 +1,151 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.product,product_suppliers:"
+msgid "Suppliers"
+msgstr "Proveedores"
+
+msgctxt "field:product.product,purchasable_variant:"
+msgid "Purchasable Variant"
+msgstr "Comprable"
+
+msgctxt "field:purchase.product_product_supplier,code:"
+msgid "Code"
+msgstr "Código"
+
+msgctxt "field:purchase.product_product_supplier,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:purchase.product_product_supplier,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:purchase.product_product_supplier,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:purchase.product_product_supplier,currency:"
+msgid "Currency"
+msgstr "Moneda"
+
+msgctxt "field:purchase.product_product_supplier,delivery_time:"
+msgid "Delivery Time"
+msgstr "Plazo de entrega"
+
+msgctxt "field:purchase.product_product_supplier,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:purchase.product_product_supplier,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:purchase.product_product_supplier,party:"
+msgid "Supplier"
+msgstr "Proveedor"
+
+msgctxt "field:purchase.product_product_supplier,prices:"
+msgid "Prices"
+msgstr "Precios"
+
+msgctxt "field:purchase.product_product_supplier,product:"
+msgid "Product"
+msgstr "Producto"
+
+msgctxt "field:purchase.product_product_supplier,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:purchase.product_product_supplier,sequence:"
+msgid "Sequence"
+msgstr "Secuencia"
+
+msgctxt "field:purchase.product_product_supplier,write_date:"
+msgid "Write Date"
+msgstr "Fecha de modificación"
+
+msgctxt "field:purchase.product_product_supplier,write_uid:"
+msgid "Write User"
+msgstr "Usuario de modificación"
+
+msgctxt "field:purchase.product_product_supplier.price,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:purchase.product_product_supplier.price,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:purchase.product_product_supplier.price,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:purchase.product_product_supplier.price,product_supplier:"
+msgid "Supplier"
+msgstr "Proveedor"
+
+msgctxt "field:purchase.product_product_supplier.price,quantity:"
+msgid "Quantity"
+msgstr "Cantidad"
+
+msgctxt "field:purchase.product_product_supplier.price,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:purchase.product_product_supplier.price,sequence:"
+msgid "Sequence"
+msgstr "Secuencia"
+
+msgctxt "field:purchase.product_product_supplier.price,unit_price:"
+msgid "Unit Price"
+msgstr "Precio unidad"
+
+msgctxt "field:purchase.product_product_supplier.price,write_date:"
+msgid "Write Date"
+msgstr "Fecha de modificación"
+
+msgctxt "field:purchase.product_product_supplier.price,write_uid:"
+msgid "Write User"
+msgstr "Usuario de modificación"
+
+msgctxt "help:purchase.product_product_supplier,delivery_time:"
+msgid "In number of days"
+msgstr "En número de días."
+
+msgctxt "help:purchase.product_product_supplier.price,quantity:"
+msgid "Minimal quantity"
+msgstr "Cantidad mínima."
+
+msgctxt "model:ir.action,name:act_product_product_supplier_form"
+msgid "Product Supplier"
+msgstr "Proveedor de producto"
+
+msgctxt "model:ir.action,name:act_product_product_supplier_price_form"
+msgid "Product Supplier Price"
+msgstr "Precio del proveedor del producto"
+
+msgctxt "model:purchase.product_product_supplier,name:"
+msgid "Product Variant Supplier"
+msgstr "Proveedor de la variante"
+
+msgctxt "model:purchase.product_product_supplier.price,name:"
+msgid "Product Variant Supplier Price"
+msgstr "Precio del proveedor de la variante"
+
+msgctxt "view:purchase.product_product_supplier.price:"
+msgid "Product Supplier Price"
+msgstr "Precio del proveedor del producto"
+
+msgctxt "view:purchase.product_product_supplier.price:"
+msgid "Product Suppliers"
+msgstr "Proveedores de productos"
+
+msgctxt "view:purchase.product_product_supplier:"
+msgid "Product Supplier"
+msgstr "Proveedor de producto"
+
+msgctxt "view:purchase.product_product_supplier:"
+msgid "Product Suppliers"
+msgstr "Proveedores de productos"
